@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgentForge — Free AI Agent for Roblox Studio</title>
+  <meta name="description" content="Turn DeepSeek, Gemini, Kimi, Claude, ChatGPT, and 15+ AI providers into a Roblox Studio agent. Free, open-source, no sign-up required.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AgentForge</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#providers">Providers</a>
+        <a href="#download" class="nav-cta">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge reveal">v4.0 · Free & Open Source</div>
+        <h1 class="hero-title reveal">
+          Turn any AI chat<br>
+          into a <span class="hero-accent">Roblox Studio</span> agent.
+        </h1>
+        <p class="hero-subtitle reveal">
+          Connect DeepSeek, Gemini, Claude, ChatGPT, Kimi, and 15+ AI providers directly to Roblox Studio through a local bridge. Read scripts, run Luau, generate assets — all from a normal AI chat. No API key, no terminal, no coding needed.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="AgentForge.zip" class="btn btn-primary" target="_blank" rel="noopener">
+            <span class="btn-icon">↓</span>
+            Download Free
+          </a>
+          <a href="https://github.com/nixwaregta-del/AgentForge" class="btn btn-secondary" target="_blank" rel="noopener">
+            <span class="btn-icon">↗</span>
+            View on GitHub
+          </a>
+        </div>
+        <div class="hero-meta reveal">
+          <span class="meta-item">Windows + macOS</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-item">Edge / Chrome</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-item">Python 3.9+</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-banner-wrap">
+          <img src="banner.svg" alt="AgentForge Banner" class="hero-banner">
+          <div class="hero-banner-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats" class="section">
+    <div class="section-inner">
+      <div class="stats-grid">
+        <div class="stat reveal">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">AI Providers</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Free & Open Source</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-number">0</div>
+          <div class="stat-label">API Keys Required</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Platforms</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Setup</span>
+        <h2 class="section-title">How it works</h2>
+        <p class="section-desc">AgentForge bridges your browser AI chat with Roblox Studio through a local Python bridge and browser extension.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Install Extension</h3>
+            <p>Load the AgentForge extension in Edge or Chrome. It injects a control panel into supported AI chat sites.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Enable MCP in Studio</h3>
+            <p>Open Roblox Studio, go to Assistant AI, and enable "Studio as MCP Server" in the MCP settings.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Run the Bridge</h3>
+            <p>Double-click start.bat (Windows) or MacOS_Start.command (macOS). The bridge connects the extension to Studio.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h3>Chat to Build</h3>
+            <p>Open a supported AI chat, start a session, and tell the agent what to build. It drives Studio directly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section section-dark">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Capabilities</span>
+        <h2 class="section-title">What the AI can do</h2>
+        <p class="section-desc">AgentForge gives your AI full control over Roblox Studio through MCP tools.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature reveal">
+          <div class="feature-icon">📝</div>
+          <h3>Read &amp; Edit Scripts</h3>
+          <p>View and modify Luau scripts directly in your place files.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">▶</div>
+          <h3>Run Luau</h3>
+          <p>Execute Luau code in Studio without opening the command bar.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🔍</div>
+          <h3>Inspect Game Tree</h3>
+          <p>Browse instances, hierarchy, and properties inside your place.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🧊</div>
+          <h3>Generate Assets</h3>
+          <p>Create meshes, materials, and models from AI prompts.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🛒</div>
+          <h3>Browse Creator Store</h3>
+          <p>Search and insert assets from the Roblox Creator Store.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🎮</div>
+          <h3>Control Play-Testing</h3>
+          <p>Start and stop play-test sessions directly from the chat.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🧠</div>
+          <h3>Persistent Memory</h3>
+          <p>The AI remembers your project across sessions, saved inside your place.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">📦</div>
+          <h3>Instance Transfer</h3>
+          <p>Move instance trees between places as JSON with export and import.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="providers" class="section">
+    <div class="section-inner">
+      <div class="providers-intro reveal">
+        <span class="section-label">Compatibility</span>
+        <h2 class="section-title">Supported AI Providers</h2>
+        <p class="section-desc">AgentForge works with 20 AI platforms. Use the one you already pay for, or use a free one — no extra API key needed.</p>
+      </div>
+      <div class="providers-grid">
+        <div class="provider reveal">DeepSeek</div>
+        <div class="provider reveal">Gemini</div>
+        <div class="provider reveal">Kimi</div>
+        <div class="provider reveal">GLM</div>
+        <div class="provider reveal">Qwen</div>
+        <div class="provider reveal">Arena</div>
+        <div class="provider reveal">Meta AI</div>
+        <div class="provider reveal">Claude</div>
+        <div class="provider reveal">ChatGPT</div>
+        <div class="provider reveal">Grok</div>
+        <div class="provider reveal">HuggingFace</div>
+        <div class="provider reveal">Mistral</div>
+        <div class="provider reveal">Perplexity</div>
+        <div class="provider reveal">Groq</div>
+        <div class="provider reveal">Poe</div>
+        <div class="provider reveal">Together AI</div>
+        <div class="provider reveal">DuckDuckGo</div>
+        <div class="provider reveal">Copilot</div>
+        <div class="provider reveal">ClickUp</div>
+        <div class="provider reveal">You</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="section section-dark">
+    <div class="section-inner">
+      <div class="download-card reveal">
+        <div class="download-info">
+          <span class="section-label">Get Started</span>
+          <h2 class="download-title">Download AgentForge</h2>
+          <p class="download-desc">Free, open-source, no sign-up required. The zip contains the Bridge and the browser extension.</p>
+          <div class="download-meta">
+            <div class="download-req">
+              <h4>Requirements</h4>
+              <ul>
+                <li>Windows or macOS</li>
+                <li>Roblox Studio (MCP support)</li>
+                <li>Edge or Chrome</li>
+                <li>Python 3.9+ (auto-installed on Windows)</li>
+              </ul>
+            </div>
+            <div class="download-include">
+              <h4>What's included</h4>
+              <ul>
+                <li>AgentForge Extension</li>
+                <li>Bridge (Python server)</li>
+                <li>Start scripts for Windows &amp; macOS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="download-action">
+          <a href="AgentForge.zip" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+            <span class="btn-icon">↓</span>
+            Download for Free
+          </a>
+          <p class="download-note">GPL-3.0 · No sign-up</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AgentForge</span>
+      </div>
+      <p class="footer-copy">
+        Made by <a href="https://github.com/cook45" target="_blank" rel="noopener">cook45</a> &amp; <a href="https://github.com/sammnydev" target="_blank" rel="noopener">sammnydev</a><br>
+        Open source under <a href="https://github.com/nixwaregta-del/AgentForge/blob/main/LICENSE" target="_blank" rel="noopener">GPL-3.0</a>
+      </p>
+      <div class="footer-links">
+        <a href="https://github.com/nixwaregta-del/AgentForge" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://discord.gg/hK4HkV3Fkm" target="_blank" rel="noopener">Discord</a>
+        <span class="nav-soon">Soon</span>
+      </div>
+    </div>
+    <div class="poll-card">
+      <div class="poll-header">
+        <span class="poll-emoji">🤔</span>
+        <span class="poll-title">W or L?</span>
+        <span class="poll-total" id="poll-total">0 votes</span>
+      </div>
+      <div class="poll-options">
+        <button class="poll-option poll-w" data-vote="w">
+          <span class="poll-option-emoji">🔵</span>
+          <span class="poll-option-label">W</span>
+          <div class="poll-bar-wrap">
+            <div class="poll-bar poll-bar-w" id="bar-w" style="width:0%"></div>
+          </div>
+          <span class="poll-pct" id="pct-w">0%</span>
+        </button>
+        <button class="poll-option poll-l" data-vote="l">
+          <span class="poll-option-emoji">🔴</span>
+          <span class="poll-option-label">L</span>
+          <div class="poll-bar-wrap">
+            <div class="poll-bar poll-bar-l" id="bar-l" style="width:0%"></div>
+          </div>
+          <span class="poll-pct" id="pct-l">0%</span>
+        </button>
+      </div>
+    </div>
+    <div class="visitor-counter" id="visitor-counter">
+      <span class="visitor-icon">👁️</span>
+      <span class="visitor-label">Visitors:</span>
+      <span class="visitor-number" id="visitor-number">0</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
